@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 //Load re-use code
 $(function() {
-    $("#nav-placeholder").load("components/navbar.html");
-    $("#side-placeholder").load("components/sidebar.html");
-    $("#foot-placeholder").load("components/footer.html");
+    $("#nav-placeholder").load("/components/navbar.html");
+    $("#side-placeholder").load("/components/sidebar.html");
+    $("#foot-placeholder").load("/components/footer.html");
 });
