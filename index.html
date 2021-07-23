@@ -4,62 +4,148 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>dark pine's website</title>
+    <meta name="description" content="Eila's blog">
+    <meta name="author" content="Eila">
+    <title>home | dark pine</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />   
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/mainStyles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
     <div class="navbar_wraper">
         <!-- will load common navbar with js $().load() method -->
     </div>
-    <section class="home_header">
+    <!-- Page header with logo and tagline-->
+    <header class="py-5 bg-light border-bottom mb-4">
         <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md-6 col-lg-5">
-                    <p class="mb-2 robo_bold_12">why pay for something when you can do it yourself for double the cost and quadruple the effort?</p>
-                    <h1 class="hero_tagline">
-                        welcome to my website. <br class="mob_hidden">i'm dark pine.
-                    </h1>
-                    <p class="robo_reg_16">
-                            This is my hobby website, for my hobbies. Sharing the details of my various projects and learning quests.
-                    </p>
-                </div>
-
-                <div class="col-lg-6">
-                    <img src="./img/steveandme.jpg" class="img-fluid" width="100%" alt="">
-                </div>
+            <div class="text-center my-5">
+                <h1 class="fw-bolder">welcome to my website. i'm dark pine.</h1>
+                <p class="lead mb-0">why pay for something when you can do it yourself for double the cost and quadruple the effort?</p>
             </div>
         </div>
-    </section>
-    <section class="intro">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-lg-6 mx-auto text-center">
-                    <p class="mb-2 robo_bold_12">Steve and I, bright eyed and bushy tailed, not knowing what we're in for.</p>
-                    <h1 class="hero_tagline">
-                        The epic canoe build  <br class="mob_hidden"> Intro to the blog
-                    </h1>
-                    <p class="robo_reg_16">
-                        Let's start with the big one - the canoe build. Oh man has there ever been a lot of work gone into this... We're nearing the end, and it's time to look back on the 5 
-                        month journey.
-                    </p>
+    </header>
+    <!-- Page content-->
+    <div class="container">
+        <div class="row">
+            <!-- Blog entries-->
+            <div class="col-lg-8">
+                <!-- Featured blog post-->
+                <div class="card mb-4">
+                    <a href="./blog/canoe/canoe_0.html"><img class="card-img-top" src="./img/steveandme.jpg" alt="..." /></a>
+                    <div class="card-body">
+                        <div class="small text-muted">July 23, 2021</div>
+                        <h2 class="card-title">A Wild Goose Chaser</h2>
+                        <p class="card-text">A couple amateurs who thought building a canoe from scratch would be a breeze.</p>
+                        <a class="btn btn-primary" href="./blog/canoe/canoe_0.html">Read more →</a>
+                    </div>
                 </div>
-
-                
-                <div class="col-md-10 mx-auto mt-5">
-                        <div class="video_container">
-                            <img src="/img/play-button.svg" width="50px;" alt="" class="img-fuid">
+                <!-- Nested row for non-featured blog posts-->
+                <div class="row">
+                    <div class="col-lg-6">
+                        <!-- Blog post-->
+                        <div class="card mb-4">
+                            <a href="#!"><img class="card-img-top" src="./img/garage.jpg" alt="..." /></a>
+                            <div class="card-body">
+                                <div class="small text-muted">January 1, 2021</div>
+                                <h2 class="card-title h4">Post Title</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
+                                <a class="btn btn-primary" href="#!">Read more →</a>
+                            </div>
+                        </div>
+                        <!-- Blog post-->
+                        <div class="card mb-4">
+                            <a href="#!"><img class="card-img-top" src="./img/shinyhull.jpg" alt="..." /></a>
+                            <div class="card-body">
+                                <div class="small text-muted">January 1, 2021</div>
+                                <h2 class="card-title h4">Post Title</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
+                                <a class="btn btn-primary" href="#!">Read more →</a>
+                            </div>
                         </div>
                     </div>
+                    <div class="col-lg-6">
+                        <!-- Blog post-->
+                        <div class="card mb-4">
+                            <a href="#!"><img class="card-img-top" src="./img/fiberglass.jpg" alt="..." /></a>
+                            <div class="card-body">
+                                <div class="small text-muted">January 1, 2021</div>
+                                <h2 class="card-title h4">Post Title</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
+                                <a class="btn btn-primary" href="#!">Read more →</a>
+                            </div>
+                        </div>
+                        <!-- Blog post-->
+                        <div class="card mb-4">
+                            <a href="#!"><img class="card-img-top" src="./img/closinghull.jpg" alt="..." /></a>
+                            <div class="card-body">
+                                <div class="small text-muted">January 1, 2021</div>
+                                <h2 class="card-title h4">Post Title</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam.</p>
+                                <a class="btn btn-primary" href="#!">Read more →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pagination-->
+                <nav aria-label="Pagination">
+                    <hr class="my-0" />
+                    <ul class="pagination justify-content-center my-4">
+                        <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Newer</a></li>
+                        <li class="page-item active" aria-current="page"><a class="page-link" href="#!">1</a></li>
+                        <li class="page-item disabled"><a class="page-link" href="#!">...</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">Older</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Side widgets-->
+            <div class="col-lg-4">
+                <!-- Search widget-->
+                <div class="card mb-4">
+                    <div class="card-header">Search</div>
+                    <div class="card-body">
+                        <div class="input-group">
+                            <input class="form-control" type="text" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search" />
+                            <button class="btn btn-primary" id="button-search" type="button">Go!</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Categories widget-->
+                <div class="card mb-4">
+                    <div class="card-header">Categories</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul class="list-unstyled mb-0">
+                                    <li><a href="#!">Canoe</a></li>
+                                    <li><a href="#!">Sewing</a></li>
+                                    <li><a href="#!">Mandarin</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <ul class="list-unstyled mb-0">
+                                    <li><a href="#!">Random</a></li>
+                                    <li><a href="#!">Food</a></li>
+                                    <li><a href="#!">Tutorials</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-    
-
-    <div class="footer_wraper">
-         <!-- will load common footer with js $().load() method -->
     </div>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container"><p class="m-0 text-center text-white">Copyright &copy; darkpine.ca 2021</p></div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
     <script src="/js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/esm/popper.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
