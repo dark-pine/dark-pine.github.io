@@ -4,8 +4,23 @@
     <div class="card-header">Search</div>
     <div class="card-body">
         <div class="input-group">
-            <input class="form-control" type="text" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search" />
+            <input class="form-control" id="query" type="search" name="q" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search" />
             <button class="btn btn-primary" id="button-search" type="button">Go!</button>
+            <script>
+                const f = document.getElementById('button-search')
+                const q = document.getElementById('query');
+                const google = 'https://www.google.com/search?q=site%3A+';
+                const site = 'darkpine.ca';
+          
+                function submitted(event) {
+                  event.preventDefault();
+                  const url = google + site + '+' + q.value;
+                  const win = window.open(url, '_blank');
+                  win.focus();
+                }
+          
+                f.addEventListener('onclick', submitted);
+            </script>
         </div>
     </div>
 </div>
