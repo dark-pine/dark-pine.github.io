@@ -21,7 +21,7 @@
     var page_location = window.location.href.replace(origin + '/', '').trim();
     // console.log(page_location);
     $('.navbar_links a[href*="' + page_location + '"]').addClass('active').siblings().removeClass('active');
-    
+
     if (page_location == "" || null) {
         $('.navbar_links a[href="/"]').addClass('active').siblings().removeClass('active');
     }
