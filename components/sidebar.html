@@ -1,29 +1,14 @@
 
 <!-- Search widget-->
-<div class="card mb-4">
+<!-- <div class="card mb-4">
     <div class="card-header">Search</div>
     <div class="card-body">
         <div class="input-group">
             <input class="form-control" id="query" type="search" name="q" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search" />
             <button class="btn btn-primary" id="button-search" type="button">Go!</button>
-            <script>
-                const f = document.getElementById('button-search')
-                const q = document.getElementById('query');
-                const google = 'https://www.google.com/search?q=site%3A+';
-                const site = 'darkpine.ca';
-
-                function submitted(event) {
-                  event.preventDefault();
-                  const url = google + site + '+' + q.value;
-                  const win = window.open(url, '_blank');
-                  win.focus();
-                }
-
-                f.addEventListener('onclick', submitted);
-            </script>
         </div>
     </div>
-</div>
+</div> -->
 <!-- Categories widget-->
 <div class="card mb-4">
     <div class="card-header">Categories</div>
@@ -31,18 +16,27 @@
         <div class="row">
             <div class="col-sm-6">
                 <ul class="list-unstyled mb-0">
-                    <li><a href="#!">Canoe</a></li>
-                    <li><a href="#!">Sewing</a></li>
-                    <li><a href="#!">Mandarin</a></li>
+                    <li><a href="/categories/canoe.html">Canoe</a></li>
+                    <li><a href="/categories/tutorial.html">Tutorial</a></li>
+                    <!-- <li><a href="#!">Sewing</a></li> -->
                 </ul>
             </div>
             <div class="col-sm-6">
                 <ul class="list-unstyled mb-0">
-                    <li><a href="#!">Random</a></li>
-                    <li><a href="#!">Food</a></li>
-                    <li><a href="#!">Tutorials</a></li>
+                    <li><a href="/categories/random.html">Random</a></li>
+                    <!-- <li><a href="#!">Mandarin</a></li> -->
+                    <!-- <li><a href="#!">Food</a></li> -->
                 </ul>
             </div>
         </div>
+    </div>
+</div>
+<div class="card mb-4">
+    <div class="card-header"> Archive: 2021 </div>
+    <div class="card-body">
+        <ul class="list-unstyled mb-0"> July </ul>
+        <li><a href=/posts/blog2021-07-23.html>Ready, Set, Go!</a></li>
+        <li><a href=#!>...</a></li>
+        <u1 class="list-unstyled mb-0"> August </u1>
     </div>
 </div>
