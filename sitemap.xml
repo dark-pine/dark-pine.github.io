@@ -1,38 +1,67 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>https://www.darkpine.ca/</loc>
-<lastmod>2021-07-28T13:46:05+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>https://www.darkpine.ca/</loc>
+  <lastmod>2021-08-14T02:10:37+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>https://www.darkpine.ca/blog/2021/07/30/building-a-cedar-strip-canoe-milling-the-wood-and-setup.html</loc>
-<lastmod>2021-07-30T17:33:18+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.darkpine.ca/blog/2021/08/12/building-a-cedar-strip-canoe-fiberglassing.html</loc>
+  <lastmod>2021-08-14T02:10:37+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://www.darkpine.ca/blog/2021/07/27/how-to-loft-canoe-plans-from-a-table-of-offsets.html</loc>
-<lastmod>2021-07-28T13:46:05+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.darkpine.ca/blog/2021/08/06/building-a-cedar-strip-canoe-stripping-the-hull-and-installing-the-outer-stems.html</loc>
+  <lastmod>2021-08-14T02:10:37+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://www.darkpine.ca/blog/2021/07/23/ready-set-go.html</loc>
-<lastmod>2021-07-28T13:46:05+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.darkpine.ca/blog/2021/07/30/building-a-cedar-strip-canoe-milling-the-wood-and-setup.html</loc>
+  <lastmod>2021-08-14T02:10:37+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://www.darkpine.ca/categories/canoe.html</loc>
-<lastmod>2021-07-28T13:46:05+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.darkpine.ca/blog/2021/07/23/ready-set-go.html</loc>
+  <lastmod>2021-08-14T02:10:37+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://www.darkpine.ca/categories/tutorial.html</loc>
-<lastmod>2021-07-28T13:46:05+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.darkpine.ca/blog/2021/07/27/how-to-loft-canoe-plans-from-a-table-of-offsets.html</loc>
+  <lastmod>2021-08-14T02:10:37+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://www.darkpine.ca/categories/random.html</loc>
-<lastmod>2021-07-28T13:46:05+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.darkpine.ca/blog/2021/08/10/book-review-sapiens-a-brief-history-of-humankind.html</loc>
+  <lastmod>2021-08-14T02:10:37+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://www.darkpine.ca/categories/canoe.html</loc>
+  <lastmod>2021-08-14T02:10:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.darkpine.ca/categories/random.html</loc>
+  <lastmod>2021-08-14T02:10:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.darkpine.ca/categories/tutorial.html</loc>
+  <lastmod>2021-08-14T02:10:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.darkpine.ca/categories/bookReview.html</loc>
+  <lastmod>2021-08-14T02:10:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
